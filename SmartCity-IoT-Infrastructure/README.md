@@ -1,27 +1,27 @@
 # SmartCity IoT Infrastructure:
 
-![Network Topology](Screenshots/Network Topology.png)
-
 ## Executive Summary
 This repository contains a complete, enterprise-grade simulation of a Smart City IoT network built using **Cisco Packet Tracer**. The architecture demonstrates the secure integration of physical edge devices (sensors and actuators) with a centralized Cloud/CMS environment. 
 
 By implementing **VLAN segregation, Router-on-a-Stick (802.1Q), and dynamic DHCP provisioning**, this project proves how to securely route telemetry data from vulnerable field devices across a core transport network to a centralized management backend.
 
+![Network Topology](Screenshots/Network Topology.png)
+
 ---
 
 ## Repository Structure
 ```text
-📦 Smart-City-IoT-Simulation
- ┣ 📂 Configurations         
- ┃ ┣ 📜 Router CLI.txt       
- ┃ ┗ 📜 Switch (Edge) CLI.txt     
- ┣ 📂 Screenshots                 
- ┃ ┣ 📜 Network Topology.png
- ┃ ┣ 📜 CMS Dashboard.png
- ┃ ┣ 📜 CMS Login Page.png
- ┃ ┗ 📜 DNS Resolution and Connectivity.png
- ┣ 📜 SmartCity_IoT_Infrastructure.pkt  # Executable Cisco Packet Tracer file
- ┗ 📜 README.md
+Smart-City-IoT-Simulation
+ ┣ Configurations         
+ ┃ ┣ Router CLI.txt       
+ ┃ ┗ Switch (Edge) CLI.txt     
+ ┣ Screenshots                 
+ ┃ ┣ Network Topology.png
+ ┃ ┣ CMS Dashboard.png
+ ┃ ┣ CMS Login Page.png
+ ┃ ┗ DNS Resolution and Connectivity.png
+ ┣ SmartCity_IoT_Infrastructure.pkt  # Executable Cisco Packet Tracer file
+ ┗ README.md
 
 ```
 
