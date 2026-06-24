@@ -5,8 +5,6 @@ This repository contains a complete, enterprise-grade simulation of a Smart City
 
 By implementing **VLAN segregation, Router-on-a-Stick (802.1Q), and dynamic DHCP provisioning**, this project proves how to securely route telemetry data from vulnerable field devices across a core transport network to a centralized management backend.
 
-![Network Topology](../Screenshots/Network Topology.png)
-
 ---
 
 ## Repository Structure
@@ -99,9 +97,3 @@ Environmental conditions were manipulated within the simulation. The telemetry w
 * **Network Isolation:** Proved the ability to segment unmanaged IoT devices away from critical server infrastructure using VLANs and 802.1Q encapsulation.
 * **Scalable Provisioning:** Eliminated the need for static IP management at the edge by architecting a robust, router-driven DHCP deployment.
 * **End-to-End Systems Thinking:** Demonstrated the flow of data from physical hardware layers (sensors) through complex transport layers (routing/DNS) into application layers (Web CMS).
-
----
-
-```
-
-```
