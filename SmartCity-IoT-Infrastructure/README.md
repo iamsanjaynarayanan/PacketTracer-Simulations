@@ -5,7 +5,7 @@ This repository contains a complete, enterprise-grade simulation of a Smart City
 
 By implementing **VLAN segregation, Router-on-a-Stick (802.1Q), and dynamic DHCP provisioning**, this project proves how to securely route telemetry data from vulnerable field devices across a core transport network to a centralized management backend.
 
-![Network Topology](Screenshots/Network Topology.png)
+![Network Topology](../Screenshots/Network Topology.png)
 
 ---
 
