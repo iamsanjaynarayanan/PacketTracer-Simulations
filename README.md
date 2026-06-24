@@ -6,7 +6,8 @@ This repository serves as a working sandbox to practice core networking fundamen
 
 ## Active Topologies
 
-* **[01: SmartCity IoT Infrastructure](./SmartCity-IoT-Infrastructure)**
+* **[SmartCity IoT Infrastructure](./SmartCity-IoT-Infrastructure)**
+  
   * **The Scenario:** A simulated city grid where smart streetlights and environmental sensors are isolated on a secure VLAN and routed to a central Web/CMS server.
   * **Core Focus:** Inter-VLAN Routing (Router-on-a-Stick), edge DHCP provisioning, Layer 2 isolation, and DNS resolution.
 
